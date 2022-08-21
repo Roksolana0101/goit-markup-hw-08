@@ -6,6 +6,7 @@
 .header-mail,
 .header-phone {
     display: flex;
+    
     color: var(--secondary-txt-cl);
     font-weight: 500;
     font-size: 14px;
@@ -18,6 +19,12 @@
 
     transition: color var(--anim-fast);
 
+
+    @media screen and ( max-width:767px) {
+        display: none;
+    }
+        
+    
 
 
 &:hover,
