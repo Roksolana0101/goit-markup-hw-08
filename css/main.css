@@ -199,13 +199,29 @@ p {
 
 /* main styles*/
 .container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  /*
+  width: 1200px;
   outline: var(--outline);
-  outline-offset: var(--outline-offset);
+  outline-offset: var(--outline-offset);*/
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 448px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .backdrop {
