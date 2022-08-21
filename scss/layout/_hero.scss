@@ -1,5 +1,5 @@
 /*hero styles*/
-.hero-section {
+.hero__section {
     background-image: linear-gradient(360deg,
             rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url(../images/fonimg.jpg);
@@ -18,7 +18,7 @@
 
 }
 
-.hero-container {
+.hero__container {
     display: flex;
     flex-direction: column;
     align-items: center;

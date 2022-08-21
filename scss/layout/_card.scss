@@ -20,14 +20,14 @@
     margin-bottom: 50px;
 }
 
-.work-cards-list {
+.workcards__list {
     display: flex;
     flex-wrap: wrap;
     gap: var(--main-gap);
 
 }
 
-.work-card {
+.workcards__item {
     position: relative;
 }
 
