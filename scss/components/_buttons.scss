@@ -1,0 +1,112 @@
+/* main buttn styles*/
+.button {
+    background-color: transparent;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    letter-spacing: 0.03em;
+    border: none;
+    border-radius: 4px;
+
+    padding: 6px 22px;
+
+    transition: background-color var(--anim-fast), color var(--anim-fast), box-shadow var(--anim-fast);
+
+
+
+
+&:hover,
+&:focus {
+    background-color: var(--accent-txt-cl);
+    color: var(--hero-txt-cl);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+}
+/*hero button*/
+.hero-button {
+    color: var(--hero-txt-cl);
+    background-color: var(--accent-txt-cl);
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    border: none;
+    letter-spacing: 0.06em;
+
+    max-width: 220px;
+    min-width: 200px;
+    min-height: 50px;
+    padding: 10px 32px;
+
+
+
+
+    transition: background-color var(--anim-fast);
+
+
+
+&:hover,
+&:focus {
+    background-color: var(--accent-txt-cl);
+
+}
+}
+.portfolio-nav-button {
+    background-color: #F5F4FA;
+}
+.button-list {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.modal-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+    padding: 0;
+
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+
+}
+.modal-form-btn {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    color: var(--hero-txt-cl);
+
+    cursor: pointer;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 50px;
+    padding: 10px 0px;
+    gap: 10px;
+    border: none;
+
+    border-radius: 4px;
+    background: var(--accent-txt-cl);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+}

@@ -1,0 +1,40 @@
+/*header styles*/
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-mail,
+.header-phone {
+    display: flex;
+    color: var(--secondary-txt-cl);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    align-items: center;
+    gap: 10px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    transition: color var(--anim-fast);
+
+
+
+&:hover,
+&:focus,
+&:hover,
+&:focus {
+    color: var(--accent-txt-cl);
+}
+}
+
+.icon-nav {
+    fill: currentColor;
+}
+
+.header-contact-list {
+    display: block;
+    align-items: center;
+    text-align: center;
+
+}

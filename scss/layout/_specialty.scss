@@ -1,0 +1,64 @@
+/*Specialty section*/
+.specialty {
+    padding-bottom: 0;
+}
+
+.specialty-titel {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.specialty-list {
+    display: flex;
+    gap: var(--main-gap);
+}
+
+.specialty-list-item {
+    flex-basis: 270px;
+}
+
+.specialty-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+
+}
+
+.specialty-icon {
+    outline: var(--outline);
+    outline-offset: var(--outline-offset);
+
+}
+
+.speciality-item {
+    color: var(--main-txt-cl);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.specialty-desc {
+    color: var(--secondary-txt-cl);
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+
+    width: 270px;
+}

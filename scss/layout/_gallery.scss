@@ -1,0 +1,39 @@
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--main-gap);
+
+}
+
+.gallery-list-item {
+    position: relative;
+    overflow: hidden;
+
+    transition: transform var(--anim-fast);
+    transition: box-shadow var(--anim-fast);
+    flex-basis: calc((100% - var(--main-gap) * (var(--portfolio-item) - 1)) / var(--portfolio-item));
+
+
+&:hover,
+&:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+}
+
+.gallery-link {
+    display: block;
+    transition: box-shadow var(--anim-fast);
+
+&:hover,
+&:focus {
+    position: relative;
+    overflow: hidden;
+    transition: transform var(--anim-fast);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+}
+
+.gallery-list-overley {
+    position: relative;
+    overflow: hidden;
+}

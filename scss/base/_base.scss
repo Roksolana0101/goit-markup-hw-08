@@ -1,0 +1,15 @@
+body {
+    font-family: var(--main-font);
+    font-style: normal;
+    color: var(--main-txt-cl);
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+/*main styles*/
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}

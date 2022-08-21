@@ -1,0 +1,157 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%) scale(1) rotate(0);
+    width: 528px;
+
+    background-color: var(--hero-txt-cl);
+    border-radius: 4px;
+    opacity: 1;
+    transition: transform var(--anim-fast), opacity var(--anim-fast);
+    padding: 40px;
+
+}
+
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(0.3) rotate(1turn);
+    opacity: 0;
+}
+
+
+.form {
+    display: block;
+    text-align: center;
+
+}
+
+.footer-form {
+    display: flex;
+    gap: 12px;
+
+
+
+}
+
+.form-titel {
+    max-width: 448px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: calc(23/20);
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-txt-cl);
+}
+
+.register-form-gtoup {
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.modal-form-group {
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+.modal-form-group:last-child {
+    margin-bottom: 0;
+}
+
+.modal-form-input {
+    width: 100%;
+
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding: 11px 42px;
+    outline: transparent;
+
+}
+
+.modal-form-input:hover+.form-icon,
+.modal-form-input:focus+.form-icon {
+    fill: var(--accent-txt-cl);
+}
+
+.modal-form-input.coment {
+    resize: none;
+    height: 120px;
+    padding: 16px 12px;
+}
+
+.modal-form-input.coment::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(14/12);
+    letter-spacing: 0.01em;
+
+    color: rgba(117, 117, 117, 0.5);
+
+}
+
+.form-icon {
+    position: absolute;
+    bottom: 11px;
+    left: 12px;
+    transition: fill var(--anim-fast);
+
+}
+
+.modal-form-label {
+    display: block;
+    text-align: left;
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(16/14);
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+    user-select: none;
+    padding-left: 3px;
+
+}
+.user-agree {
+    user-select: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    user-select: none;
+    text-underline-position: under;
+
+    color: var(--accent-txt-cl);
+}
+.register-form-agree {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 8px;
+    justify-content: center;
+
+}
+
+.register-checkbox:checked+.register-icon .register-icon-uncheck {
+    opacity: 0;
+}
+
+.register-checkbox:checked+.register-icon .register-icon-check {
+    opacity: 1;
+}
+
+.register-icon-check {
+    opacity: 0;
+    transition: opacity var(--anim-fast);
+
+}
+

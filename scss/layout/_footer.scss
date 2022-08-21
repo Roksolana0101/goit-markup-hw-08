@@ -1,0 +1,125 @@
+/* footer styles*/
+.footer {
+
+    background-color: var(--dark-bg-cl);
+    padding: 60px 0;
+
+
+}
+
+.logo-footer {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-mail,
+.footer-phone {
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+
+    transition: color var(--anim-fast);
+
+
+
+
+&:hover,
+&:focus,
+&:hover,
+&:focus {
+    color: var(--accent-txt-cl);
+}
+}
+.footer-address {
+    color: var(--hero-txt-cl);
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    margin-bottom: 8px;
+}
+
+/* footer socials icon*/
+.footer-socials-titel {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+
+    color: #FFFFFF;
+}
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.footer-socials-link {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    outline: var(--outline);
+    outline-offset: var(--outline-offset);
+    color: var(--hero-txt-cl);
+
+    transition: color var(--anim-fast), background-color var(--anim-fast);
+
+
+
+&:hover,
+&:focus {
+    color: var(--hero-txt-cl);
+    background-color: var(--accent-txt-cl);
+}
+}
+
+.footer-socials-icon {
+    fill: currentColor;
+}
+
+.footer-conteiner {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-conteiner1 {
+    margin-right: 70px;
+}
+
+.footer-conteiner2 {
+    margin-left: auto;
+}
+
+.footer-contact-list:not(last-child) {
+    margin-bottom: 9px;
+}
+.footer-form-input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding: 15px 16px;
+    background-color: transparent;
+    color: var(--hero-txt-cl);
+    outline: transparent;
+}
+
+.form-icon-foter {
+    width: 24px;
+    height: 24px;
+}

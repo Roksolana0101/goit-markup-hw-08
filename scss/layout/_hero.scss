@@ -1,0 +1,25 @@
+/*hero styles*/
+.hero-section {
+    background-image: linear-gradient(360deg,
+            rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/fonimg.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    background-color: var(--dark-bg-cl);
+    padding: 200px 0;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,32 @@
+/*utils styles*/
+
+@import "./utils/variables";
+@import "./utils/visualy-hidden";
+
+/*base styles*/
+
+@import "./base/base";
+@import "./base/reset";
+
+/*components styles*/
+
+@import "./components/buttons";
+@import "./components/conteiner";
+@import "./components/section";
+@import "./components/backdrop";
+@import "./components/tittle";
+@import "./components/modal";
+
+/*layouts styles*/
+
+@import "./layout/heder";
+@import "./layout/logo";
+@import "./layout/hero";
+@import "./layout/footer";
+@import "./layout/navigation";
+@import "./layout/card";
+@import "./layout/overley";
+@import "./layout/portfolio";
+@import "./layout/gallery";
+@import "./layout/wrapper";
+@import "./layout/socials";
