@@ -83,6 +83,12 @@ p {
 
 .img {
   display: block;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 /*components styles*/
@@ -492,6 +498,11 @@ p {
   border: none;
   cursor: pointer;
 }
+@media screen and (min-width: 767px) {
+  .menu-btn {
+    display: none;
+  }
+}
 
 .menu__conteiner {
   position: absolute;
@@ -509,10 +520,21 @@ p {
   padding: 48px 40px;
   height: 100%;
   width: 100%;
-  /*
-      opacity: 0;
-      pointer-events: none;
-      visibility: hidden; */
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  -webkit-transition: opacity var(--anim-fast), visibility var(--anim-fast);
+  transition: opacity var(--anim-fast), visibility var(--anim-fast);
+}
+.menu__conteiner.is-open {
+  opacity: 1;
+  pointer-events: initial;
+  visibility: visible;
+}
+@media screen and (min-width: 767px) {
+  .menu__conteiner {
+    display: none;
+  }
 }
 
 .menu-nav {
