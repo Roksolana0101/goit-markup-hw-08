@@ -18,11 +18,13 @@
 
 .specialty__list {
     display: flex;
-    gap: var(--main-gap);
+    flex-wrap: wrap;
+    gap: var(--indent);
 }
 
 .specialty__items {
-    flex-basis: 270px;
+   
+    flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
 

@@ -1,8 +1,7 @@
 .gallery-list {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--main-gap);
-
+    gap: var(--indent);
 }
 
 .gallery-list-item {
@@ -11,7 +10,7 @@
 
     transition: transform var(--anim-fast);
     transition: box-shadow var(--anim-fast);
-    flex-basis: calc((100% - var(--main-gap) * (var(--portfolio-item) - 1)) / var(--portfolio-item));
+    flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 
 
 &:hover,

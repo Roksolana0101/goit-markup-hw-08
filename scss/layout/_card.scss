@@ -23,7 +23,7 @@
 .workcards__list {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--main-gap);
+    gap: var(--indent);
 
 }
 
@@ -39,13 +39,13 @@
 .team-card-list {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--main-gap);
-    flex-basis: calc((100% - var(--main-gap) * (var(--work-cards) - 1)) / var(--work-cards));
+    gap: var(--indent);
+    flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
 .team-card-item {
     background-color: #ffffff;
-    flex-basis: calc((100% - var(--main-gap) * (var(--teams-item) - 1)) / var(--teams-item));
+    flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
