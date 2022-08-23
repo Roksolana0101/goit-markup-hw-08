@@ -53,14 +53,14 @@
             --items: 4;
         }
 }
-.team-card-image, .gallery-card-image {
+.team-card-image {
             @media screen and (min-width:768px) {
-                width: 260px;
-                height: 270px;
+                width: 270px;
+                height: 260px;
                 }
          @media screen and (min-width:768px) {
-         width: 260px;
-          height: 270px;
+         width: 270px;
+          height: 260px;
                                                         }
 
 }
