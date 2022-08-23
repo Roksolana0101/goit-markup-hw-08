@@ -2,6 +2,17 @@
     display: flex;
     flex-wrap: wrap;
     gap: var(--indent);
+        flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+            --items: 1;
+        
+            @media screen and (min-width:768px) {
+                --items: 2;
+            }
+        
+            @media screen and (min-width:1200px) {
+                --items: 3;
+            }
+        
 }
 
 .gallery-list-item {

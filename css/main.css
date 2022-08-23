@@ -1067,6 +1067,19 @@ p {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: var(--indent);
+  -ms-flex-preferred-size: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+      flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+  --items: 1;
+}
+@media screen and (min-width: 768px) {
+  .gallery-list {
+    --items: 2;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .gallery-list {
+    --items: 3;
+  }
 }
 
 .gallery-list-item {
