@@ -1191,8 +1191,19 @@ p {
 }
 
 .specialty__items {
+  --items: 1;
   -ms-flex-preferred-size: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
       flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}
+@media screen and (min-width: 768px) {
+  .specialty__items {
+    --items: 2;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .specialty__items {
+    --items: 4;
+  }
 }
 
 .specialty__box {
