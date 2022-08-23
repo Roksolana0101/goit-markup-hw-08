@@ -24,7 +24,7 @@
     <!--Normalize end-->
     <!--Custom styles start-->
     <link rel="stylesheet" href="./css/main.min.css" />
-   
+
     <!--Custom styles end-->
   </head>
   <body>
@@ -109,13 +109,66 @@
             <li class="gallery-list-item">
               <div class="gallery-list-overley">
                 <a class="gallery-link link" href="">
-                  <img
-                    class="gallery-card-image"
-                    src="./images/portfolio/img1.jpg"
-                    alt="laptop"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-1@1x_lg.webp 1x,
+                        ./images/images/portfolio/img-1@2x_lg.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-1@1x_lg.jpg 1x,
+                        ./images/images/portfolio/img-1@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-1@1x_md.webp 1x,
+                        ./images/images/portfolio/img-1@2x_md.webp 2x
+                      "
+                      type="image/images/webp"
+                    />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-1@1x_md.jpg 1x,
+                        ./images/images/portfolio/img-1@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- mobile screen -->
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-1@1x_sm.webp 1x,
+                        ./images/images/portfolio/img-1@2x_sm.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-1@1x_sm.jpg 1x,
+                        ./images/images/portfolio/img-1@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="gallery-card-image"
+                      src="./images/images/portfolio/img-1@1x_sm.jpg"
+                      width="450"
+                      height="294"
+                      alt="laptop"
+                    />
+                  </picture>
                   <div class="overley">
                     <p class="overley-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -134,13 +187,67 @@
             <li class="gallery-list-item">
               <div class="gallery-list-overley">
                 <a class="gallery-link link" href="">
-                  <img
-                    class="gallery-card-image"
-                    src="./images/portfolio/img2.jpg"
-                    alt="basketball players"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-2@1x_lg.webp 1x,
+                        ./images/images/portfolio/img-2@2x_lg.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-2@1x_lg.jpg 1x,
+                        ./images/images/portfolio/img-2@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-2@1x_md.webp 1x,
+                        ./images/images/portfolio/img-2@2x_md.webp 2x
+                      "
+                      type="image/images/webp"
+                    />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-2@1x_md.jpg 1x,
+                        ./images/images/portfolio/img-2@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- mobile screen -->
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-2@1x_sm.webp 1x,
+                        ./images/images/portfolio/img-2@2x_sm.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-2@1x_sm.jpg 1x,
+                        ./images/images/portfolio/img-2@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="gallery-card-image"
+                      src="./images/images/portfolio/img-2@1x_sm.jpg"
+                      alt="basketball players"
+                      width="450"
+                      height="294"
+                    />
+                  </picture>
+
                   <div class="overley">
                     <p class="overley-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -159,13 +266,67 @@
             <li class="gallery-list-item">
               <div class="gallery-list-overley">
                 <a class="gallery-link link" href="">
-                  <img
-                    class="gallery-card-image"
-                    src="./images/portfolio/img3.jpg"
-                    alt="seafood"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-3@1x_lg.webp 1x,
+                        ./images/images/portfolio/img-3@2x_lg.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-3@1x_lg.jpg 1x,
+                        ./images/images/portfolio/img-3@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-3@1x_md.webp 1x,
+                        ./images/images/portfolio/img-3@2x_md.webp 2x
+                      "
+                      type="image/images/webp"
+                    />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-3@1x_md.jpg 1x,
+                        ./images/images/portfolio/img-3@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- mobile screen -->
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-3@1x_sm.webp 1x,
+                        ./images/images/portfolio/img-3@2x_sm.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-3@1x_sm.jpg 1x,
+                        ./images/images/portfolio/img-3@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="gallery-card-image"
+                      src="./images/images/portfolio/img-3@1x_sm.jpg"
+                      alt="seafood"
+                      width="450"
+                      height="294"
+                    />
+                  </picture>
+
                   <div class="overley">
                     <p class="overley-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -184,13 +345,67 @@
             <li class="gallery-list-item">
               <div class="gallery-list-overley">
                 <a class="gallery-link link" href="">
-                  <img
-                    class="gallery-card-image"
-                    src="./images/portfolio/img4.jpg"
-                    alt="headphone"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-4@1x_lg.webp 1x,
+                        ./images/images/portfolio/img-4@2x_lg.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-4@1x_lg.jpg 1x,
+                        ./images/images/portfolio/img-4@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-4@1x_md.webp 1x,
+                        ./images/images/portfolio/img-4@2x_md.webp 2x
+                      "
+                      type="image/images/webp"
+                    />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-4@1x_md.jpg 1x,
+                        ./images/images/portfolio/img-4@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- mobile screen -->
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-4@1x_sm.webp 1x,
+                        ./images/images/portfolio/img-4@2x_sm.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-4@1x_sm.jpg 1x,
+                        ./images/images/portfolio/img-4@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="gallery-card-image"
+                      src="./images/images/portfolio/img-4@1x_sm.jpg"
+                      alt="headphone"
+                      width="450"
+                      height="294"
+                    />
+                  </picture>
+
                   <div class="overley">
                     <p class="overley-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -209,13 +424,67 @@
             <li class="gallery-list-item">
               <div class="gallery-list-overley">
                 <a class="gallery-link link" href="">
-                  <img
-                    class="gallery-card-image"
-                    src="./images/portfolio/img5.jpg"
-                    alt="two boxes"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-5@1x_lg.webp 1x,
+                        ./images/images/portfolio/img-5@2x_lg.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-5@1x_lg.jpg 1x,
+                        ./images/images/portfolio/img-5@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-5@1x_md.webp 1x,
+                        ./images/images/portfolio/img-5@2x_md.webp 2x
+                      "
+                      type="image/images/webp"
+                    />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-5@1x_md.jpg 1x,
+                        ./images/images/portfolio/img-5@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- mobile screen -->
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-5@1x_sm.webp 1x,
+                        ./images/images/portfolio/img-5@2x_sm.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-5@1x_sm.jpg 1x,
+                        ./images/images/portfolio/img-5@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="gallery-card-image"
+                      src="./images/images/portfolio/img-5@1x_sm.jpg"
+                      alt="two boxes"
+                      width="450"
+                      height="294"
+                    />
+                  </picture>
+
                   <div class="overley">
                     <p class="overley-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -234,13 +503,67 @@
             <li class="gallery-list-item">
               <div class="gallery-list-overley">
                 <a class="gallery-link link" href="">
-                  <img
-                    class="gallery-card-image"
-                    src="./images/portfolio/img6.jpg"
-                    alt="monitor"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-6@1x_lg.webp 1x,
+                        ./images/images/portfolio/img-6@2x_lg.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-6@1x_lg.jpg 1x,
+                        ./images/images/portfolio/img-6@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-6@1x_md.webp 1x,
+                        ./images/images/portfolio/img-6@2x_md.webp 2x
+                      "
+                      type="image/images/webp"
+                    />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-6@1x_md.jpg 1x,
+                        ./images/images/portfolio/img-6@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- mobile screen -->
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-6@1x_sm.webp 1x,
+                        ./images/images/portfolio/img-6@2x_sm.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-6@1x_sm.jpg 1x,
+                        ./images/images/portfolio/img-6@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="gallery-card-image"
+                      src="./images/images/portfolio/img-6@1x_sm.jpg"
+                      alt="monitor"
+                      width="450"
+                      height="294"
+                    />
+                  </picture>
+
                   <div class="overley">
                     <p class="overley-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -259,13 +582,67 @@
             <li class="gallery-list-item">
               <div class="gallery-list-overley">
                 <a class="gallery-link link" href="">
-                  <img
-                    class="gallery-card-image"
-                    src="./images/portfolio/img7.jpg"
-                    alt="magazine"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-7@1x_lg.webp 1x,
+                        ./images/images/portfolio/img-7@2x_lg.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-7@1x_lg.jpg 1x,
+                        ./images/images/portfolio/img-7@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-7@1x_md.webp 1x,
+                        ./images/images/portfolio/img-7@2x_md.webp 2x
+                      "
+                      type="image/images/webp"
+                    />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-7@1x_md.jpg 1x,
+                        ./images/images/portfolio/img-7@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- mobile screen -->
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-7@1x_sm.webp 1x,
+                        ./images/images/portfolio/img-7@2x_sm.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-7@1x_sm.jpg 1x,
+                        ./images/images/portfolio/img-7@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="gallery-card-image"
+                      src="./images/images/portfolio/img-7@1x_sm.jpg"
+                      alt="magazine"
+                      width="450"
+                      height="294"
+                    />
+                  </picture>
+
                   <div class="overley">
                     <p class="overley-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -284,13 +661,67 @@
             <li class="gallery-list-item">
               <div class="gallery-list-overley">
                 <a class="gallery-link link" href="">
-                  <img
-                    class="gallery-card-image"
-                    src="./images/portfolio/img8.jpg"
-                    alt="Lab el tag"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-8@1x_lg.webp 1x,
+                        ./images/images/portfolio/img-8@2x_lg.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-8@1x_lg.jpg 1x,
+                        ./images/images/portfolio/img-8@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-8@1x_md.webp 1x,
+                        ./images/images/portfolio/img-8@2x_md.webp 2x
+                      "
+                      type="image/images/webp"
+                    />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-8@1x_md.jpg 1x,
+                        ./images/images/portfolio/img-8@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- mobile screen -->
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-8@1x_sm.webp 1x,
+                        ./images/images/portfolio/img-8@2x_sm.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-8@1x_sm.jpg 1x,
+                        ./images/images/portfolio/img-8@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="gallery-card-image"
+                      src="./images/images/portfolio/img-8@1x_sm.jpg"
+                      alt="Lab el tag"
+                      width="450"
+                      height="294"
+                    />
+                  </picture>
+
                   <div class="overley">
                     <p class="overley-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -309,13 +740,66 @@
             <li class="gallery-list-item">
               <div class="gallery-list-overley">
                 <a class="gallery-link link" href="">
-                  <img
-                    class="gallery-card-image"
-                    src="./images/portfolio/img9.jpg"
-                    alt="laptop and hands"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-9@1x_lg.webp 1x,
+                        ./images/images/portfolio/img-9@2x_lg.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/images/portfolio/img-9@1x_lg.jpg 1x,
+                        ./images/images/portfolio/img-9@2x_lg.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-9@1x_md.webp 1x,
+                        ./images/images/portfolio/img-9@2x_md.webp 2x
+                      "
+                      type="image/images/webp"
+                    />
+                    <source
+                      media="(min-width: 768px )"
+                      srcset="
+                        ./images/images/portfolio/img-9@1x_md.jpg 1x,
+                        ./images/images/portfolio/img-9@2x_md.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <!-- mobile screen -->
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-9@1x_sm.webp 1x,
+                        ./images/images/portfolio/img-9@2x_sm.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(max-width: 767px )"
+                      srcset="
+                        ./images/images/portfolio/img-9@1x_sm.jpg 1x,
+                        ./images/images/portfolio/img-9@2x_sm.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="gallery-card-image"
+                      src="./images/images/portfolio/img-9@1x_sm.jpg"
+                      alt="laptop and hands"
+                      width="450"
+                      height="294"
+                    />
+                  </picture>
 
                   <div class="overley">
                     <p class="overley-text">

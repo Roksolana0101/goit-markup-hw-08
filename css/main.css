@@ -941,14 +941,50 @@ p {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: var(--indent);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-preferred-size: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
       flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+  --items: 1;
+}
+@media screen and (min-width: 768px) {
+  .team-card-list {
+    --items: 2;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-card-list {
+    --items: 4;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team-card-image, .gallery-card-image {
+    width: 260px;
+    height: 270px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team-card-image, .gallery-card-image {
+    width: 260px;
+    height: 270px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .gallery-card-image {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .gallery-card-image {
+    width: 370px;
+  }
 }
 
 .team-card-item {
   background-color: #ffffff;
-  -ms-flex-preferred-size: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-      flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
