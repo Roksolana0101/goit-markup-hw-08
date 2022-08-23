@@ -153,7 +153,11 @@
             <li class="workcards__item">
               <img
                 class="workcards__image"
-                src="./images/work1.jpg"
+                srcset="
+                  ./images/images/ourwork/what-we-do-1@1x_lg.jpg 1x,
+                  ./images/images/ourwork/what-we-do-1@2x_lg.jpg 2x
+                "
+                src="./images/images/ourwork/what-we-do-1@1x_lg.jpg"
                 alt="робота за ПК"
                 width="370"
                 height="294"
@@ -165,7 +169,11 @@
             <li class="workcards__item">
               <img
                 class="workcards__image"
-                src="./images/work2.jpg"
+                srcset="
+                  ./images/images/ourwork/what-we-do-2@1x_lg.jpg 1x,
+                  ./images/images/ourwork/what-we-do-2@2x_lg.jpg 2x
+                "
+                src="./images/images/ourwork/what-we-do-2@1x_lg.jpg"
                 alt="робота за ПК"
                 width="370"
                 height="294"
@@ -176,8 +184,12 @@
             </li>
             <li class="workcards__item">
               <img
-                class="workcards__image"
-                src="./images/work3.jpg"
+                class="workcards__image"      
+                srcset="
+                  ./images/images/ourwork/what-we-do-3@1x_lg.jpg 1x,
+                  ./images/images/ourwork/what-we-do-3@2x_lg.jpg 2x
+                "
+                src="./images/ourwork/what-we-do-2@1x_lg.jpg"
                 alt="робота за ПК"
                 width="370"
                 height="294"
@@ -196,13 +208,68 @@
           <h2 class="cards-titel">Наша команда</h2>
           <ul class="team-card-list list">
             <li class="team-card-item">
-              <img
+               <picture>
+                <!-- desktop screen -->
+                <source
+                  media="(min-width: 1200px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-1@1x_lg.webp 1x,
+                    ./images/images/ourteam/our-team-1@2x_lg.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-1@1x_lg.jpg 1x,
+                    ./images/images/ourteam/our-team-1@2x_lg.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- tablet screen -->
+                <source
+                  media="(min-width: 768px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-1@1x_md.webp 1x,
+                    ./images/images/ourteam/our-team-1@2x_md.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-1@1x_md.jpg 1x,
+                    ./images/images/ourteam/our-team-1@2x_md.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- mobile screen -->
+                <source
+                  media="(max-width: 767px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-1@1x_sm.webp 1x,
+                    ./images/images/ourteam/our-team-1@2x_sm.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 767px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-1@1x_sm.jpg 1x,
+                    ./images/images/ourteam/our-team-1@2x_sm.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
                 class="team-card-image"
-                src="./images/team1.jpg"
-                alt="Ігорь Демьяненко"
-                width="270"
-                height="260"
-              />
+                  src="./images/images/ourteam/our-team-1@1x_sm.jpg"
+                  alt="Ігор Дем'яненко"
+                  width="450"
+                  height="460"
+                  
+                />
+              </picture>
+
               <div class="team-wrapper">
                 <h3 class="team-name">Ігорь Демьяненко</h3>
                 <p class="team-card-description">Product Designer</p>
@@ -263,13 +330,68 @@
               </div>
             </li>
             <li class="team-card-item">
-              <img
-                class="team-card-image"
-                src="./images/team2.jpg"
-                alt="Ольга Ріпина"
-                width="270"
-                height="260"
-              />
+                             <picture>
+                <!-- desktop screen -->
+                <source
+                  media="(min-width: 1200px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-2@1x_lg.webp 1x,
+                    ./images/images/ourteam/our-team-2@2x_lg.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-2@1x_lg.jpg 1x,
+                    ./images/images/ourteam/our-team-2@2x_lg.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- tablet screen -->
+                <source
+                  media="(min-width: 768px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-2@1x_md.webp 1x,
+                    ./images/images/ourteam/our-team-2@2x_md.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-2@1x_md.jpg 1x,
+                    ./images/images/ourteam/our-team-2@2x_md.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- mobile screen -->
+                <source
+                  media="(max-width: 767px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-2@1x_sm.webp 1x,
+                    ./images/images/ourteam/our-team-2@2x_sm.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 767px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-2@1x_sm.jpg 1x,
+                    ./images/images/ourteam/our-team-2@2x_sm.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="team-card-image"
+                  src="./images/images/ourteam/our-team-2@1x_sm.jpg"
+                  alt="Ольга Ріпина"
+                  width="450"
+                  height="460"
+                  
+                />
+              </picture>
+
               <div class="team-wrapper">
                 <h3 class="team-name">Ольга Ріпина</h3>
                 <p class="team-card-description">Frontend Developer</p>
@@ -330,13 +452,69 @@
               </div>
             </li>
             <li class="team-card-item">
-              <img
-                class="team-card-image"
-                src="./images/team3.jpg"
-                alt="Микола Тарасов"
-                width="270"
-                height="260"
-              />
+                                           <picture>
+                <!-- desktop screen -->
+                <source
+                  media="(min-width: 1200px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-3@1x_lg.webp 1x,
+                    ./images/images/ourteam/our-team-3@2x_lg.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-3@1x_lg.jpg 1x,
+                    ./images/images/ourteam/our-team-3@2x_lg.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- tablet screen -->
+                <source
+                  media="(min-width: 768px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-3@1x_md.webp 1x,
+                    ./images/images/ourteam/our-team-3@2x_md.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-3@1x_md.jpg 1x,
+                    ./images/images/ourteam/our-team-3@2x_md.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- mobile screen -->
+                <source
+                  media="(max-width: 767px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-3@1x_sm.webp 1x,
+                    ./images/images/ourteam/our-team-3@2x_sm.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 767px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-3@1x_sm.jpg 1x,
+                    ./images/images/ourteam/our-team-3@2x_sm.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="team-card-image"
+                  src="./images/images/ourteam/our-team-3@1x_sm.jpg"
+                  alt="Микола Тарасов"
+                  width="450"
+                  height="460"
+                  
+                />
+              </picture>
+
+            
               <div class="team-wrapper">
                 <h3 class="team-name">Микола Тарасов</h3>
                 <p class="team-card-description">Marketing</p>
@@ -397,13 +575,68 @@
               </div>
             </li>
             <li class="team-card-item">
-              <img
-                class="team-card-image"
-                src="./images/team4.jpg"
-                alt="Михайло Єрмаков"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <!-- desktop screen -->
+                <source
+                  media="(min-width: 1200px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-4@1x_lg.webp 1x,
+                    ./images/images/ourteam/our-team-4@2x_lg.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-4@1x_lg.jpg 1x,
+                    ./images/images/ourteam/our-team-4@2x_lg.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- tablet screen -->
+                <source
+                  media="(min-width: 768px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-4@1x_md.webp 1x,
+                    ./images/images/ourteam/our-team-4@2x_md.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-4@1x_md.jpg 1x,
+                    ./images/images/ourteam/our-team-4@2x_md.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <!-- mobile screen -->
+                <source
+                  media="(max-width: 767px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-4@1x_sm.webp 1x,
+                    ./images/images/ourteam/our-team-4@2x_sm.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 767px )"
+                  srcset="
+                    ./images/images/ourteam/our-team-4@1x_sm.jpg 1x,
+                    ./images/images/ourteam/our-team-4@2x_sm.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="team-card-image"
+                  src="./images/images/ourteam/our-team-4@1x_sm.jpg"
+                  alt="Михайло Єрмаков"
+                  width="450"
+                  height="460"
+                  
+                />
+              </picture>
+
               <div class="team-wrapper">
                 <h3 class="team-name">Михайло Єрмаков</h3>
                 <p class="team-card-description">UI Designer</p>
