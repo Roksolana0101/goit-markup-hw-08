@@ -7,8 +7,20 @@
 .client {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+
+    flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+        --items: 2;
+    
+        @media screen and (min-width:768px) {
+            --items: 3;
+        }
+    
+        @media screen and (min-width:1200px) {
+            --items: 6;
+        }
 }
 
 .client-link {
@@ -30,6 +42,7 @@
     color: var(--accent-txt-cl);
     border: 1px solid var(--accent-txt-cl);
 }
+
 }
 
 .client-icon {

@@ -1258,10 +1258,25 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   gap: 30px;
+  -ms-flex-preferred-size: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+      flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+  --items: 2;
+}
+@media screen and (min-width: 768px) {
+  .client {
+    --items: 3;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .client {
+    --items: 6;
+  }
 }
 
 .client-link {
