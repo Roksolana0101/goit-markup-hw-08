@@ -761,6 +761,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-wraper {
+    margin-right: 93px;
+  }
+}
+
 .logo-footer {
   margin-bottom: 20px;
 }
